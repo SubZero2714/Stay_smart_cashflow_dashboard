@@ -1,0 +1,16 @@
+
+==================================================
+Processing Error Detected!
+Time: 2025-02-22 17:58:32
+Location: deposit_categorizer.py -> categorize_deposits
+Error: 'DepositCategorizer' object has no attribute '_match_deposits_returns'
+
+Stack Trace:
+Traceback (most recent call last):
+  File "C:\Users\Shushant Kumar\Desktop\vscode projects\Stay_smart_cashflow_dashboard\src\deposit_categorizer.py", line 79, in categorize_deposits
+    self._match_deposits_returns(deposits, returns)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DepositCategorizer' object has no attribute '_match_deposits_returns'
+
+==================================================
+
